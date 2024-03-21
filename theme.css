@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header{
+    overflow: hidden;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+   position: sticky;
+   top: 0px;
+   z-index: 99;
+}
+.btn{
+    color: white;
+}
+.anchor{
+    color: white;
+}
+.anchor:hover{
+    color: red;
+}
+.title{
+    /* border: 2px solid red; */
+    width: 600px;
+    height: 470px;
+    margin-top: 120px;
+   
+}
+.car_img{
+    rotate: -3deg;
+    overflow: hidden;
+    /* transform: translate3d(58.339px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scaleX(1) scaleY(1) scaleZ(1);
+    -webkit-transform: translate3d(58.339px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scaleX(1) scaleY(1) scaleZ(1); */
+    
+}
+
+.car_img1{
+    rotate: -3deg;
+    overflow: hidden;
+    /* transform: translate3d(6.331px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scaleX(1) scaleY(1) scaleZ(1);
+   -webkit-transform: translate3d(100px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scaleX(1) scaleY(1) scaleZ(1); */
+    
+}
+
